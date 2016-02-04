@@ -10,4 +10,4 @@
 # Ignore the default SQLite database.
 ##/db/*.sqlite3
 
-/client.rb
+#/client.rb
