@@ -1,9 +1,9 @@
-RtGmail(仮)
+Grail(仮)
 ===========
 
 ##What is it?
 
-作り途中
+Gmailをリアルタイムっぽい感じで取得して自動返信するプログラム  
 　　  
 
 質問等ありましたらTwitter:[@flum_](https://twitter.com/flum_)までお願いします。  

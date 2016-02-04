@@ -1,6 +1,6 @@
 require 'gmail'
 
-module RtGmail
+module Grail
   class Client
     attr_accessor :gmail
     def initialize(username, password)

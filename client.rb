@@ -1,10 +1,10 @@
 path = File.expand_path('../', __FILE__)
-require File.join(path, 'lib', 'rtgmail.rb')
+require File.join(path, 'lib', 'grail.rb')
 
 username = 'user_name'
 password = 'password'
 
-rg = RtGmail::Client.new(username, password)
+rg = Grail::Client.new(username, password)
 rg.stream do |mail| #ストリームもどき デフォルトだと20秒ごとに未読メールを取得
   mail.reply('subject', 'body', 'sender_name')
 end
